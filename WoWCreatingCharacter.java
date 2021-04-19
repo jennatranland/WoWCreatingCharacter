@@ -22,6 +22,9 @@ public class WoWCreatingCharacter {
 
         System.out.println("Hello, this program will guide us through creating a World of Warcraft character!");
         System.out.println("You will be choosing your faction, race, class, and gender.");
+        System.out.println("However, choosing either faction will give you different races that are not available to the other.");
+        System.out.println("Afterwards, you will choose a race that has a specific list of classes.");
+        System.out.println("Choosing your gender does not really matter.");
         System.out.println("Type in the number that corresponds with your answer.\n");
 
         String[] selectedRaces = SetUserFaction();
